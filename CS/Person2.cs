@@ -6,13 +6,13 @@ namespace CS
 {
     class Person2
     {
-        Person2()
+        public Person2()
         {
             FirstName = "John";
         }
 
-        string FirstName { get; }
-        string LastName { get; } = "Doe";
-        IList<string> Ids { get; } = new List<string>() { "abc123" };
+        public string FirstName { get; }
+        public string LastName { get; } = "Doe";
+        public IList<string> Ids { get; } = new List<string>() { "abc123" };
     }
 }
